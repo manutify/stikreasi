@@ -20,7 +20,7 @@ export default function KontakPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const msg = `Halo Stikreasi!%0A%0A*Nama:* ${form.name}%0A*Email:* ${form.email}%0A*Subject:* ${form.subject}%0A%0A${form.message}`;
-    window.open(`https://wa.me/6289924539711?text=${msg}`, "_blank");
+    window.open(`https://wa.me/6289524539171?text=${msg}`, "_blank");
     setSent(true);
   };
 
@@ -102,7 +102,7 @@ export default function KontakPage() {
           <div className={styles.faqSection}>
             <div className="section-header">
               <span className="section-badge">FAQ</span>
-              <h2>Pertanyaan yang Sering <span style={{color:'var(--retro-orange)'}}>Ditanyakan</span></h2>
+              <h2>Pertanyaan yang Sering <span style={{ color: 'var(--retro-orange)' }}>Ditanyakan</span></h2>
             </div>
             <div className={styles.faqGrid}>
               {[

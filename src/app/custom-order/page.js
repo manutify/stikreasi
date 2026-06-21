@@ -119,7 +119,7 @@ function CustomOrderForm() {
         `*Catatan:* ${formData.notes || '-'}%0A%0A` +
         `*Estimasi:* ${formatPrice(estimatePrice())}`;
 
-      window.open(`https://wa.me/6289924539711?text=${message}`, "_blank");
+      window.open(`https://wa.me/6289524539171?text=${message}`, "_blank");
       setSubmitted(true);
     } catch (err) {
       console.error(err);
