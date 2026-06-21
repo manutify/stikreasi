@@ -1,0 +1,224 @@
+.products {
+  background: var(--cream);
+  position: relative;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.productCard {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.productCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--retro-blue), var(--retro-orange), var(--retro-green));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+  z-index: 2;
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--retro-orange-muted);
+}
+
+.productCard:hover::before {
+  transform: scaleX(1);
+}
+
+.cardImageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  border-bottom: 2px solid var(--cream-dark);
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-base);
+}
+
+.productCard:hover .cardImg {
+  transform: scale(1.05);
+}
+
+.cardEmojiBadge {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 0.8rem;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--cream-dark);
+}
+
+.cardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardHeaderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  color: var(--retro-blue-dark);
+  font-weight: 700;
+}
+
+.cardTitle a:hover {
+  color: var(--retro-orange);
+}
+
+.cardDesc {
+  font-size: 0.85rem;
+  color: var(--warm-gray);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.cardFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.featureTag {
+  background: var(--cream);
+  color: var(--warm-gray);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid var(--cream-dark);
+}
+
+.cardPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.priceAmount {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--retro-orange-dark);
+}
+
+.priceUnit {
+  font-size: 0.75rem;
+  color: var(--warm-gray-light);
+}
+
+.cardActionRow {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.cardBtn {
+  background: var(--retro-orange);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all var(--transition-fast);
+  box-shadow: 2px 2px 0px var(--retro-orange-dark);
+}
+
+.cardBtn:hover {
+  background: var(--retro-orange-light);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--retro-orange-dark);
+}
+
+.cardDetailBtn {
+  background: var(--retro-blue);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all var(--transition-fast);
+  box-shadow: 2px 2px 0px var(--retro-blue-dark);
+}
+
+.cardDetailBtn:hover {
+  background: var(--retro-blue-light);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--retro-blue-dark);
+}
+
+.viewAll {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

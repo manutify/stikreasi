@@ -1,0 +1,66 @@
+.hargaPage { padding-top: 80px; }
+.pageHero {
+  position: relative; padding: 4rem 0;
+  background: linear-gradient(135deg, var(--retro-orange-dark) 0%, var(--retro-orange) 50%, var(--retro-blue) 100%);
+  overflow: hidden; text-align: center;
+}
+.heroBg { position: absolute; inset: 0; background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px); background-size: 24px 24px; }
+.heroContent { position: relative; z-index: 1; }
+.heroBadge { display: inline-block; background: rgba(255,255,255,0.15); color: white; padding: 0.4rem 1rem; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
+.pageHero h1 { color: white; font-size: clamp(2rem,4vw,3rem); margin-bottom: 0.8rem; }
+.pageHero h1 span { color: var(--cream); }
+.pageHero p { color: rgba(255,255,255,0.85); font-size: 1.1rem; }
+
+.pricingGrid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin-bottom: 4rem; }
+.pricingCard {
+  background: white; border-radius: var(--radius-lg); padding: 2rem;
+  box-shadow: var(--shadow-md); border: 2px solid var(--cream-dark);
+  transition: all var(--transition-base); position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.pricingCard:hover { transform: translateY(-6px); box-shadow: var(--shadow-xl); }
+.popular { border-color: var(--retro-orange); transform: scale(1.03); }
+.popular:hover { transform: scale(1.03) translateY(-6px); }
+.popularRibbon {
+  position: absolute; top: 1rem; right: -2rem;
+  background: var(--retro-orange); color: white;
+  padding: 0.3rem 2.5rem; font-size: 0.75rem; font-weight: 700;
+  transform: rotate(35deg); box-shadow: var(--shadow-sm);
+}
+.cardHeader { text-align: center; margin-bottom: 1.5rem; }
+.tierEmoji { font-size: 2.5rem; display: block; margin-bottom: 0.5rem; }
+.tierName { font-size: 1.4rem; color: var(--retro-blue-dark); margin-bottom: 0.3rem; }
+.tierTagline { font-size: 0.85rem; color: var(--warm-gray); }
+.priceBox {
+  text-align: center; padding: 1rem;
+  background: var(--cream); border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
+}
+.cardblue .priceBox { background: rgba(27,77,142,0.06); }
+.cardorange .priceBox { background: rgba(232,96,28,0.06); }
+.cardgreen .priceBox { background: rgba(58,125,68,0.06); }
+.priceLabel { font-family: var(--font-heading); font-weight: 700; font-size: 1rem; color: var(--retro-blue-dark); }
+.featureList { flex: 1; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.featureList li { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.9rem; color: var(--text-primary); }
+.checkIcon { color: var(--retro-green); font-weight: 700; flex-shrink: 0; }
+.tierCta { width: 100%; text-align: center; }
+
+/* Bulk Pricing */
+.bulkSection { text-align: center; padding-top: 2rem; }
+.bulkTitle { margin-bottom: 0.5rem; color: var(--retro-blue-dark); }
+.bulkDesc { color: var(--warm-gray); margin-bottom: 2rem; }
+.bulkGrid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
+.bulkCard {
+  background: white; border-radius: var(--radius-lg); padding: 1.5rem;
+  box-shadow: var(--shadow-sm); border: 2px solid var(--cream-dark);
+  display: flex; flex-direction: column; align-items: center; gap: 0.3rem;
+  transition: all var(--transition-base);
+}
+.bulkCard:hover { border-color: var(--retro-green-muted); transform: translateY(-4px); }
+.bulkQty { font-family: var(--font-heading); font-weight: 800; font-size: 1.5rem; color: var(--retro-blue-dark); }
+.bulkLabel { font-size: 0.8rem; color: var(--warm-gray-light); }
+.bulkDiscount { font-family: var(--font-heading); font-weight: 800; font-size: 1.3rem; color: var(--retro-green); }
+.bulkTag { font-size: 0.8rem; color: var(--retro-green-dark); font-weight: 600; }
+
+@media (max-width: 900px) { .pricingGrid { grid-template-columns: 1fr; } .popular { transform: none; } .bulkGrid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 480px) { .bulkGrid { grid-template-columns: 1fr; } }

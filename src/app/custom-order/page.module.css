@@ -1,0 +1,174 @@
+.customPage {
+  padding-top: 80px;
+}
+.pageHero {
+  position: relative;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--retro-green-dark) 0%, var(--retro-blue) 100%);
+  overflow: hidden;
+  text-align: center;
+}
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+.heroBadge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.pageHero h1 { color: white; font-size: clamp(2rem,4vw,3rem); margin-bottom: 0.8rem; }
+.pageHero h1 span { color: var(--retro-orange); }
+.pageHero p { color: rgba(255,255,255,0.8); font-size: 1.1rem; }
+
+.orderSection { padding-top: 2rem; }
+.orderLayout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.orderForm {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-md);
+}
+.formSection {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--cream-dark);
+}
+.formSection:last-of-type { border-bottom: none; margin-bottom: 1rem; }
+.formSectionTitle {
+  font-size: 1.15rem;
+  color: var(--retro-blue-dark);
+  margin-bottom: 1.2rem;
+}
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.radioGroup { display: flex; gap: 1.5rem; margin-top: 0.5rem; }
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.radioLabel input[type="radio"] { accent-color: var(--retro-blue); }
+.submitBtn { width: 100%; padding: 1rem; font-size: 1.1rem; }
+
+/* Sidebar */
+.sidebar { position: sticky; top: 100px; }
+.priceCard {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.8rem;
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--retro-orange-muted);
+  margin-bottom: 1.5rem;
+}
+.priceCardTitle {
+  font-size: 1.15rem;
+  color: var(--retro-blue-dark);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--cream-dark);
+}
+.priceBreakdown { margin-bottom: 1rem; }
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  border-bottom: 1px dashed var(--cream-dark);
+}
+.priceRow span:first-child { color: var(--warm-gray); }
+.priceRow span:last-child { font-weight: 600; color: var(--text-primary); }
+.discount span:last-child { color: var(--retro-green); }
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 0.5rem;
+  border-top: 2px solid var(--retro-blue);
+}
+.totalRow span:first-child { font-weight: 600; color: var(--text-primary); }
+.totalPrice {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--retro-orange-dark);
+}
+.priceNote { font-size: 0.75rem; color: var(--warm-gray-light); margin-top: 0.5rem; font-style: italic; }
+
+.infoCard {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+.infoCard h4 { font-size: 1rem; color: var(--retro-blue-dark); margin-bottom: 1rem; }
+.orderSteps {
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.orderSteps li {
+  counter-increment: step;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  color: var(--warm-gray);
+}
+.orderSteps li::before {
+  content: counter(step);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--retro-blue);
+  flex-shrink: 0;
+}
+
+/* Success */
+.successContainer { padding: 4rem 0; }
+.successCard {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  box-shadow: var(--shadow-lg);
+}
+.successEmoji { font-size: 4rem; margin-bottom: 1rem; display: block; }
+.successCard h2 { margin-bottom: 1rem; color: var(--retro-green); }
+.successCard p { margin-bottom: 2rem; }
+
+@media (max-width: 900px) {
+  .orderLayout { grid-template-columns: 1fr; }
+  .sidebar { position: static; }
+  .formRow { grid-template-columns: 1fr; }
+}

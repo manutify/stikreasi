@@ -1,0 +1,63 @@
+.cta {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--retro-blue-dark) 0%, var(--retro-blue) 50%, var(--retro-green-dark) 100%);
+}
+
+.ctaBg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.bgPattern {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.ctaEmoji {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.ctaTitle {
+  color: white;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+.ctaTitle span {
+  color: var(--retro-orange);
+}
+
+.ctaDesc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.15rem;
+  max-width: 550px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

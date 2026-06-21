@@ -1,0 +1,302 @@
+export const products = [
+  {
+    id: 1,
+    name: "Stiker Vinyl Premium",
+    slug: "stiker-vinyl-premium",
+    category: "vinyl",
+    description: "Stiker tahan air dan tahan UV, cocok untuk outdoor maupun indoor. Bahan vinyl premium dengan hasil cetak tajam dan warna vibrant.",
+    shortDesc: "Tahan air & UV, perfect untuk outdoor",
+    price: 5000,
+    minOrder: 10,
+    unit: "lembar",
+    features: ["Tahan Air", "Tahan UV", "Anti Gores", "Warna Tajam"],
+    popular: true,
+    emoji: "💎",
+    image: "/images/stiker-vinyl.png",
+    specs: {
+      "Bahan": "Premium Vinyl Glossy/Matte",
+      "Ketebalan": "120 micron",
+      "Ketahanan": "Tahan air (Waterproof), tahan sinar matahari (UV-proof)",
+      "Finishing": "Laminasi Dingin (Glossy/Matte)",
+      "Penggunaan": "Outdoor & Indoor (Laptop, Helm, Mobil, Tumbler, Sepeda)",
+      "Perekat": "High-tack acrylic adhesive (daya rekat kuat, tidak meninggalkan lem)"
+    }
+  },
+  {
+    id: 2,
+    name: "Stiker Chromo",
+    slug: "stiker-chromo",
+    category: "chromo",
+    description: "Stiker berbahan chromo dengan finishing glossy. Pilihan ekonomis untuk kebutuhan label produk UMKM dan packaging.",
+    shortDesc: "Ekonomis untuk label produk & packaging",
+    price: 2000,
+    minOrder: 50,
+    unit: "lembar",
+    features: ["Glossy Finish", "Harga Terjangkau", "Cetak Cepat", "Warna Cerah"],
+    popular: true,
+    emoji: "✨",
+    image: "/images/stiker-chromo.png",
+    specs: {
+      "Bahan": "Chromo Paper (kertas semi-plastik)",
+      "Ketebalan": "80 micron",
+      "Ketahanan": "Tahan percikan air (semi-waterproof)",
+      "Finishing": "Glossy Coating",
+      "Penggunaan": "Indoor (Label Makanan, Segel Box, Kemasan Botol Kering)",
+      "Perekat": "Permanent rubber adhesive (daya rekat sangat kuat)"
+    }
+  },
+  {
+    id: 3,
+    name: "Stiker Transparan",
+    slug: "stiker-transparan",
+    category: "transparan",
+    description: "Stiker bening transparan dengan cetakan presisi. Sempurna untuk kemasan produk, botol, dan branding yang elegan.",
+    shortDesc: "Bening & elegan untuk kemasan premium",
+    price: 7000,
+    minOrder: 10,
+    unit: "lembar",
+    features: ["Full Transparan", "Waterproof", "Presisi Tinggi", "Elegan"],
+    popular: true,
+    emoji: "🔮",
+    image: "/images/stiker-transparan.png",
+    specs: {
+      "Bahan": "Transparent PET Film",
+      "Ketebalan": "100 micron",
+      "Ketahanan": "100% Waterproof, anti gores ringan",
+      "Finishing": "Super Clear Glossy",
+      "Penggunaan": "Kemasan Kosmetik, Botol Kaca, Jar Skincare, Gelas Kaca",
+      "Perekat": "Ultra-clear solvent adhesive (tidak ada bayangan lem setelah ditempel)"
+    }
+  },
+  {
+    id: 4,
+    name: "Stiker Die-Cut",
+    slug: "stiker-die-cut",
+    category: "die-cut",
+    description: "Stiker dengan potongan mengikuti bentuk desain. Custom shape sesuai keinginan, cocok untuk branding personal.",
+    shortDesc: "Potong sesuai bentuk desain kamu",
+    price: 8000,
+    minOrder: 10,
+    unit: "lembar",
+    features: ["Custom Shape", "Presisi Laser", "Bahan Premium", "Peel & Stick"],
+    popular: false,
+    emoji: "✂️",
+    image: "/images/stiker-die-cut.png",
+    specs: {
+      "Bahan": "Super Premium Vinyl (Thick)",
+      "Ketebalan": "150 micron (Lebih Tebal)",
+      "Ketahanan": "Heavy-duty waterproof & weatherproof",
+      "Finishing": "Matte Satin Laminate",
+      "Penggunaan": "Lifestyle (Stiker Helm, Laptop, Skateboard, Case HP, Motor)",
+      "Perekat": "Removable premium acrylic (bisa dilepas pasang tanpa residu)"
+    }
+  },
+  {
+    id: 5,
+    name: "Stiker Hologram",
+    slug: "stiker-hologram",
+    category: "hologram",
+    description: "Stiker hologram berkilau dengan efek rainbow. Eye-catching dan unik, perfect untuk stiker laptop, tumbler, dan gaya hidup.",
+    shortDesc: "Efek hologram berkilau & eye-catching",
+    price: 10000,
+    minOrder: 10,
+    unit: "lembar",
+    features: ["Efek Hologram", "Rainbow Shine", "Tahan Air", "Premium Look"],
+    popular: true,
+    emoji: "🌈",
+    image: "/images/stiker-hologram.png",
+    specs: {
+      "Bahan": "Metallic Holographic PVC Film",
+      "Ketebalan": "130 micron",
+      "Ketahanan": "Waterproof, anti-scratch",
+      "Finishing": "Prismatic Rainbow Glossy",
+      "Penggunaan": "Lifestyle & Branding (Laptop, Tumbler, Merchandise, Premium Packaging)",
+      "Perekat": "Extra strong acrylic permanent"
+    }
+  },
+  {
+    id: 6,
+    name: "Stiker Kertas / Art Paper",
+    slug: "stiker-kertas-art-paper",
+    category: "kertas",
+    description: "Stiker berbahan art paper dengan finishing matte atau glossy. Cocok untuk label produk makanan, undangan, dan keperluan dekorasi.",
+    shortDesc: "Matte/glossy untuk label & dekorasi",
+    price: 3000,
+    minOrder: 25,
+    unit: "lembar",
+    features: ["Matte/Glossy", "Food Safe", "Mudah Ditulis", "Harga Ekonomis"],
+    popular: false,
+    emoji: "📄",
+    image: "/images/stiker-chromo.png",
+    specs: {
+      "Bahan": "Art Paper Sticker Premium",
+      "Ketebalan": "85 micron",
+      "Ketahanan": "Mudah sobek jika kena air (untuk area kering saja)",
+      "Finishing": "Doff / Matte Coating (bisa ditulis dengan pulpen)",
+      "Penggunaan": "Undangan, Label Amplop, Tag Harga, Label Dus Boks Kering",
+      "Perekat": "Medium tack acrylic"
+    }
+  },
+  {
+    id: 7,
+    name: "Stiker Label Produk UMKM",
+    slug: "stiker-label-produk-umkm",
+    category: "label",
+    description: "Paket stiker label khusus untuk UMKM. Tersedia dalam berbagai ukuran standar untuk kemasan makanan, minuman, dan produk handmade.",
+    shortDesc: "Paket khusus label kemasan UMKM",
+    price: 150000,
+    minOrder: 1,
+    unit: "paket (100 lembar)",
+    features: ["Desain Gratis", "Berbagai Ukuran", "Quick Print", "Konsultasi Free"],
+    popular: true,
+    emoji: "🏪",
+    image: "/images/stiker-label-umkm.png",
+    specs: {
+      "Bahan": "Pilihan: Chromo Premium / Vinyl Waterproof",
+      "Ketebalan": "80 - 120 micron",
+      "Ketahanan": "Tergantung pilihan bahan (disarankan vinyl untuk produk kulkas)",
+      "Finishing": "Glossy / Matte (Free Laminasi)",
+      "Penggunaan": "Label Botol Minuman, Jar Selai, Kemasan Makanan Beku, Paper Bag",
+      "Perekat": "Industrial permanent adhesive"
+    }
+  },
+  {
+    id: 8,
+    name: "Stiker Nama Personalisasi",
+    slug: "stiker-nama-personalisasi",
+    category: "personalisasi",
+    description: "Stiker nama dan personal branding untuk mahasiswa, anak sekolah, dan individu. Custom nama, warna, dan desain sesuai karakter kamu.",
+    shortDesc: "Custom nama & desain personal kamu",
+    price: 5000,
+    minOrder: 20,
+    unit: "lembar",
+    features: ["Custom Nama", "Pilih Desain", "Pilih Warna", "Quick 1 Hari"],
+    popular: false,
+    emoji: "🏷️",
+    image: "/images/stiker-die-cut.png",
+    specs: {
+      "Bahan": "Waterproof Vinyl (High Grade)",
+      "Ketebalan": "100 micron",
+      "Ketahanan": "100% Tahan Air, aman dicuci (misal di tempat bekal/botol minum)",
+      "Finishing": "Matte Satin (Aesthetic Look)",
+      "Penggunaan": "Buku Pelajaran, Kotak Makan, Tumbler, Alat Tulis, Case Laptop",
+      "Perekat": "Medium-strong adhesive (mudah dilepas jika ingin ganti nama tanpa berbekas)"
+    }
+  },
+  {
+    id: 9,
+    name: "Stiker Laptop & Tumbler",
+    slug: "stiker-laptop-tumbler",
+    category: "lifestyle",
+    description: "Koleksi stiker aesthetic untuk laptop, tumbler, helm, dan gadget. Desain trendy kekinian yang bikin perangkatmu makin kece.",
+    shortDesc: "Stiker aesthetic buat gadget kamu",
+    price: 3000,
+    minOrder: 5,
+    unit: "lembar",
+    features: ["Desain Trendy", "Anti Air", "Removable", "No Residue"],
+    popular: true,
+    emoji: "💻",
+    image: "/images/stiker-vinyl.png",
+    specs: {
+      "Bahan": "Vinyl Waterproof (Aesthetic Spec)",
+      "Ketebalan": "120 micron",
+      "Ketahanan": "Waterproof & Scratchproof",
+      "Finishing": "Doff / Matte Anti-Reflective",
+      "Penggunaan": "Casing Laptop, Tumbler Corkcicle/Hydroflask, Helm, Casing HP",
+      "Perekat": "Zero-residue removable glue (dijamin aman untuk laptop mahal)"
+    }
+  },
+  {
+    id: 10,
+    name: "Stiker Kemasan & Segel",
+    slug: "stiker-kemasan-segel",
+    category: "kemasan",
+    description: "Stiker seal dan kemasan untuk packaging produk. Thank you sticker, segel keamanan, dan stiker branding kemasan.",
+    shortDesc: "Segel, thank you card & branding kemasan",
+    price: 2500,
+    minOrder: 50,
+    unit: "lembar",
+    features: ["Thank You Stiker", "Segel Keamanan", "Custom Logo", "Bulk Discount"],
+    popular: false,
+    emoji: "📦",
+    image: "/images/stiker-label-umkm.png",
+    specs: {
+      "Bahan": "Chromo Premium / Kraft Paper Sticker",
+      "Ketebalan": "80 micron",
+      "Ketahanan": "Standard tear-proof packaging seal",
+      "Finishing": "Glossy / Uncoated Kraft",
+      "Penggunaan": "Segel Box Makanan, Kotak Sepatu, Thank You label pada Packaging Box",
+      "Perekat": "Super permanent adhesive (menunjukkan segel telah dibuka jika robek)"
+    }
+  },
+  {
+    id: 11,
+    name: "Stiker Ritrama (Cutting)",
+    slug: "stiker-ritrama-cutting",
+    category: "cutting",
+    description: "Stiker cutting dari bahan Ritrama premium untuk signage, branding toko, kendaraan, dan dekorasi interior/eksterior.",
+    shortDesc: "Bahan Ritrama untuk cutting & signage",
+    price: 15000,
+    minOrder: 1,
+    unit: "meter",
+    features: ["Bahan Ritrama", "Tahan 5+ Tahun", "Indoor/Outdoor", "Aneka Warna"],
+    popular: false,
+    emoji: "🎯",
+    image: "/images/stiker-vinyl.png",
+    specs: {
+      "Bahan": "Ritrama Premium Vinyl Film (Italy Premium Quality)",
+      "Ketebalan": "140 micron (Sangat Tebal)",
+      "Ketahanan": "Weatherproof outdoor ekstrem hingga 5 tahun lebih",
+      "Finishing": "Solid color glossy/matte",
+      "Penggunaan": "Cutting Sticker Mobil/Motor, Kaca Toko, Papan Nama, Signage Kantor",
+      "Perekat": "Acrylic solvent-based permanent (sangat tahan cuaca ekstrem)"
+    }
+  },
+  {
+    id: 12,
+    name: "Stiker A3+ Sheet Custom",
+    slug: "stiker-a3-sheet-custom",
+    category: "sheet",
+    description: "Cetak stiker full sheet ukuran A3+ dengan desain custom. Cocok untuk jumlah kecil dengan berbagai desain dalam 1 lembar.",
+    shortDesc: "Full sheet A3+ untuk multi desain",
+    price: 25000,
+    minOrder: 1,
+    unit: "lembar A3+",
+    features: ["Multi Desain", "Full Color", "A3+ Size", "Min. 1 Lembar"],
+    popular: false,
+    emoji: "🖨️",
+    image: "/images/stiker-vinyl.png",
+    specs: {
+      "Bahan": "Pilihan: Vinyl A3+ / Chromo A3+ / Transparan A3+",
+      "Ketebalan": "80 - 120 micron",
+      "Ketahanan": "Tergantung pilihan bahan yang digunakan",
+      "Finishing": "Laminasi (opsional, Glossy/Doff)",
+      "Penggunaan": "Multi-purpose (Cetak massal aneka desain dalam 1 lembar)",
+      "Perekat": "High grade acrylic adhesive"
+    }
+  }
+];
+
+export const categories = [
+  { id: "all", name: "Semua", emoji: "🎨" },
+  { id: "vinyl", name: "Vinyl", emoji: "💎" },
+  { id: "chromo", name: "Chromo", emoji: "✨" },
+  { id: "transparan", name: "Transparan", emoji: "🔮" },
+  { id: "die-cut", name: "Die-Cut", emoji: "✂️" },
+  { id: "hologram", name: "Hologram", emoji: "🌈" },
+  { id: "kertas", name: "Kertas", emoji: "📄" },
+  { id: "label", name: "Label UMKM", emoji: "🏪" },
+  { id: "personalisasi", name: "Personalisasi", emoji: "🏷️" },
+  { id: "lifestyle", name: "Lifestyle", emoji: "💻" },
+  { id: "kemasan", name: "Kemasan", emoji: "📦" },
+  { id: "cutting", name: "Cutting", emoji: "🎯" },
+  { id: "sheet", name: "Sheet A3+", emoji: "🖨️" },
+];
+
+export function formatPrice(price) {
+  return new Intl.NumberFormat('id-ID', {
+    style: 'currency',
+    currency: 'IDR',
+    minimumFractionDigits: 0,
+  }).format(price);
+}
