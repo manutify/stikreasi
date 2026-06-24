@@ -21,6 +21,7 @@ export default function Navbar() {
     { href: "/custom-order", label: "Custom Order" },
     { href: "/harga", label: "Harga" },
     { href: "/tentang", label: "Tentang" },
+    { href: "/artikel", label: "Artikel" },
     { href: "/kontak", label: "Kontak" },
   ];
 
