@@ -18,7 +18,7 @@ export default function CTASection() {
         </p>
         <div className={styles.ctaButtons}>
           <Link
-            href="https://wa.me/6289924539711?text=Halo%20Stikreasi%2C%20saya%20tertarik%20untuk%20memesan%20stiker"
+            href="https://wa.me/6289524539171?text=Halo%20Stikreasi%2C%20saya%20tertarik%20untuk%20memesan%20stiker"
             target="_blank"
             className="btn btn-whatsapp"
           >

@@ -48,7 +48,7 @@ export default function Navbar() {
           ))}
           <li className={styles.navCta}>
             <Link
-              href="https://wa.me/6289924539711"
+              href="https://wa.me/6289524539171"
               target="_blank"
               className={`btn btn-whatsapp ${styles.navWhatsapp}`}
               onClick={() => setIsOpen(false)}

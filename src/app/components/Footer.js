@@ -28,7 +28,7 @@ export default function Footer() {
               <a href="https://instagram.com/stikreasi" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Instagram">
                 📸
               </a>
-              <a href="https://wa.me/6289924539711" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="WhatsApp">
+              <a href="https://wa.me/6289524539171" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="WhatsApp">
                 💬
               </a>
               <a href="https://tiktok.com/@stikreasi" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="TikTok">
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
               <li>
                 <span className={styles.contactIcon}>📱</span>
-                <a href="https://wa.me/6289924539711">0899-2453-9711</a>
+                <a href="https://wa.me/6289524539171">089524539171</a>
               </li>
               <li>
                 <span className={styles.contactIcon}>📧</span>

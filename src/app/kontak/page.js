@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./page.module.css";
 
 const contactInfo = [
-  { icon: "💬", label: "WhatsApp", value: "0899-2453-9711", link: "https://wa.me/6289924539711", color: "green" },
+  { icon: "💬", label: "WhatsApp", value: "089524539171", link: "https://wa.me/6289524539171", color: "green" },
   { icon: "📧", label: "Email", value: "hello@stikreasi.com", link: "mailto:hello@stikreasi.com", color: "blue" },
   { icon: "📸", label: "Instagram", value: "@stikreasi", link: "https://instagram.com/stikreasi", color: "orange" },
   { icon: "⏰", label: "Jam Operasional", value: "Senin - Sabtu, 08:00 - 17:00", link: null, color: "blue" },
@@ -57,7 +57,7 @@ export default function KontakPage() {
                   </div>
                 ))}
               </div>
-              <a href="https://wa.me/6289924539711?text=Halo%20Stikreasi!" target="_blank" rel="noopener noreferrer" className={`btn btn-whatsapp ${styles.bigWaBtn}`}>
+              <a href="https://wa.me/6289524539171?text=Halo%20Stikreasi!" target="_blank" rel="noopener noreferrer" className={`btn btn-whatsapp ${styles.bigWaBtn}`}>
                 💬 Chat WhatsApp Sekarang
               </a>
             </div>

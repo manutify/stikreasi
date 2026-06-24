@@ -60,7 +60,7 @@ export default function ProductDetailPage() {
       `*Harga per item (setelah diskon):* ${formatPrice(getPerItemPrice())}%0A` +
       `*Total Estimasi:* ${formatPrice(getDiscountedPrice())}%0A%0A` +
       `Mohon infokan langkah selanjutnya. Terima kasih!`;
-    window.open(`https://wa.me/6289924539711?text=${msg}`, "_blank");
+    window.open(`https://wa.me/6289524539171?text=${msg}`, "_blank");
   };
 
   return (
