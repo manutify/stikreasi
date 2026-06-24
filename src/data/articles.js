@@ -4,7 +4,7 @@ export const articles = [
     title: "Perbedaan Stiker Die Cut & Kiss Cut dan Bahan Vinyl vs Chromo",
     slug: "perbedaan-stiker-die-cut-kiss-cut-vinyl-chromo",
     excerpt: "Pernahkah kamu merasa bingung saat ingin mencetak stiker custom? Ketahui perbedaan stiker die cut dan kiss cut, serta bahan mana yang terbaik untuk kebutuhan outdoor.",
-    date: "2024-05-24",
+    date: "2026-06-24",
     author: "Tim Stikreasi",
     category: "Edukasi",
     readTime: "5 menit",
