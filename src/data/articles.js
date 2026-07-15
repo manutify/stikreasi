@@ -18,7 +18,7 @@ export const articles = [
 
 <h2>Apa Perbedaan Stiker Die Cut dan Kiss Cut?</h2>
 
-<p>Jika kamu pernah memesan stiker custom, pasti pernah mendengar istilah <em>die cut</em> dan <em>kiss cut</em>. Kedua teknik ini sering membingungkan karena hasil akhirnya terlihat mirip. Namun, perbedaan mendasar terletak pada <strong>kedalaman pemotongan</strong>.</p>
+<p>Jika kamu pernah memesan stiker custom, pasti pernah mendengar istilah <em>die cut</em> dan <em>kiss cut</em>. Kedua teknik ini sering membingungkan karena hasil akhirnya terlihat mirip. Namun, perbedaan mendasar terletak pada <strong>kedalaman pemotongan</strong>. Untuk panduan visual yang lebih lengkap, kamu bisa membaca <a href="https://www.shopify.com/blog/kiss-cut-vs-die-cut-stickers" target="_blank" rel="noopener noreferrer">Shopify: Kiss Cut vs. Die Cut Stickers Guide</a> sebagai referensi tambahan.</p>
 
 <h3>Memahami Stiker Die Cut (Potongan Tembus)</h3>
 
@@ -68,7 +68,7 @@ export const articles = [
 
 <h2>Bahan Stiker Apa yang Paling Cocok untuk Penggunaan Outdoor?</h2>
 
-<p>Setelah memahami teknik pemotongan, pertanyaan selanjutnya yang sering muncul adalah: <strong>bahan stiker apa yang paling tahan lama untuk outdoor?</strong> Dua bahan yang paling umum adalah <strong>vinyl</strong> dan <strong>chromo</strong>. Keduanya memiliki kelebihan dan kekurangan masing-masing.</p>
+<p>Setelah memahami teknik pemotongan, pertanyaan selanjutnya yang sering muncul adalah: <strong>bahan stiker apa yang paling tahan lama untuk outdoor?</strong> Dua bahan yang paling umum adalah <strong>vinyl</strong> dan <strong>chromo</strong>. Keduanya memiliki kelebihan dan kekurangan masing-masing yang sempat dibahas dalam ulasan <a href="https://bengkelprint.co.id/blog/stiker-chromo-vs-vinyl/" target="_blank" rel="noopener noreferrer">Stiker Chromo vs Vinyl</a>.</p>
 
 <h3>Stiker Vinyl: Paling Tangguh untuk Outdoor</h3>
 
