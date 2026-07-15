@@ -18,7 +18,7 @@ export const articles = [
 
 <h2>Apa Perbedaan Stiker Die Cut dan Kiss Cut?</h2>
 
-<p>Jika kamu pernah memesan stiker custom, pasti pernah mendengar istilah <em>die cut</em> dan <em>kiss cut</em>. Kedua teknik ini sering membingungkan karena hasil akhirnya terlihat mirip. Namun, perbedaan mendasar terletak pada <strong>kedalaman pemotongan</strong>. Untuk panduan visual yang lebih lengkap, kamu bisa membaca <a href="https://www.shopify.com/blog/kiss-cut-vs-die-cut-stickers" target="_blank" rel="noopener noreferrer">Shopify: Kiss Cut vs. Die Cut Stickers Guide</a> sebagai referensi tambahan.</p>
+<p>Jika kamu pernah memesan stiker custom, pasti pernah mendengar istilah <em>die cut</em> dan <em>kiss cut</em>. Kedua teknik ini sering membingungkan karena hasil akhirnya terlihat mirip. Namun, perbedaan mendasar terletak pada <strong>kedalaman pemotongan</strong>. Untuk panduan visual yang lebih lengkap, kamu bisa membaca <a href="https://www.shopify.com/my/blog/kiss-cut-vs-die-cut" target="_blank" rel="noopener noreferrer">Shopify: Kiss Cut vs. Die Cut Stickers Guide</a> sebagai referensi tambahan.</p>
 
 <h3>Memahami Stiker Die Cut (Potongan Tembus)</h3>
 
@@ -173,7 +173,7 @@ export const articles = [
 <li>Harga terjangkau untuk UMKM dan mahasiswa</li>
 </ul>
 
-<p><strong>Jangan ragu lagi!</strong> Wujudkan brand awareness bisnismu atau kreativitasmu dengan stiker custom berkualitas. Klik tombol di bawah untuk konsultasi gratis dan dapatkan penawaran terbaik!</p>
+<p><strong>Jangan ragu lagi!</strong> Wujudkan brand awareness bisnismu atau kreativitasmu dengan melihat <a href="https://stikreasi.vercel.app/produk" target="_blank" rel="noopener noreferrer">Katalog Produk Stiker Custom kami</a> dan langsung sesuaikan pesananmu di halaman <a href="https://stikreasi.vercel.app/custom-order" target="_blank" rel="noopener noreferrer">Custom Order Stiker Stikreasi</a>.</p>
 
 <p><a style="background-color: #ff6600;color: #ffffff;padding: 12px 24px;text-decoration: none;font-weight: bold;border-radius: 4px;display: inline-block" href="https://stikreasi.vercel.app" target="_blank" rel="noopener noreferrer">👉 Pesan Sekarang &amp; Dapatkan Diskon Khusus!</a></p>
 
